@@ -1,0 +1,156 @@
+/* General styles for all screens */
+body {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    #d08c24 0%,
+    rgb(0, 0, 0) 100%
+  );
+  background-repeat: no-repeat;
+  min-height: 130vh;
+  font-family: system-ui;
+  overflow: hidden;
+}
+
+.first {
+  appearance: button;
+  background-color: #434ecc;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 19px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: 40%;
+  margin-top: 130px;
+}
+
+.custom-shape-divider-top-1699558399 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.first {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.first:hover {
+  transform: scale(1.05);
+  background-color: hsl(0, 0%, 24%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(132, 132, 132) 0px 7px 29px 0px;
+}
+
+.first:active {
+  background-color: hsl(0, 0%, 25%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(132, 132, 132) 0px 7px 29px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+  transform: scale(1.01);
+}
+
+.custom-shape-divider-top-1699558399 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 143px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1699558399 .shape-fill {
+  background: rgb(0,0,0);
+background: linear-gradient(165deg, rgba(0,0,0,1) 24%, rgba(189,115,37,1) 55%, rgba(0,0,0,1) 100%);
+}
+
+.buying {
+  background-color: #6c410400;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: small;
+  transition: 0.50s;
+  margin-bottom: 0;
+}
+.buying:hover{
+  transform: scale(1.02);
+}
+
+.bike_logo {
+  width: 400px;
+  margin-left: 270px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+.bike_parts {
+  width: 400px;
+  margin-left: 570px;
+padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .first {
+    margin-left: 10%; 
+    margin-top: 120px; 
+  }
+
+  .bike_logo{
+    width: 180px;
+  }
+  .bike_parts {
+    width: 100%; 
+    margin-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+  }
+}
+.bi{
+  font-size:30px;
+  margin-left: 395px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #dddddd;
+  font-weight: bolder;
+}
+.bik{
+  font-size:30px;
+  font-weight: bolder;
+  margin-left: 825px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #dddddd;
+}

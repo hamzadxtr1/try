@@ -1,0 +1,46 @@
+body {
+    background: rgb(213, 150, 53);
+    background: radial-gradient(circle, rgba(213, 150, 53, 1) 0%, rgba(141, 118, 86, 1) 21%, rgba(124, 112, 99, 1) 45%, rgba(71, 71, 71, 1) 83%);
+    background-repeat: no-repeat;
+    min-height: 130vh;
+    overflow:visible;
+    font-family: system-ui;
+}
+.kk{
+    padding: 20px;
+    max-width: fit-content;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+}
+.white{
+    max-width:200px;
+    border-radius: 10px;
+    margin: 0;
+    cursor: url(pictures/pikala.jpg);
+}
+.taman{
+    margin-top: 0;
+    font-size:large;
+    font-weight: bolder;
+    margin-right: 0;
+    max-width: fit-content;
+    display: inline;
+}
+.hiya{
+    color: rgb(0, 0, 0);
+    font-size:medium;
+    font-weight: bolder;
+    max-width: 200px;
+    overflow: hidden;
+    max-height: 45px;
+}
+.lblasa{
+    font-size:large;
+    font-weight:bolder;
+}
+.mst3ml{
+    display: inline;
+    margin-left: 100px;
+    font-size:large;
+    font-weight:bolder;
+}
